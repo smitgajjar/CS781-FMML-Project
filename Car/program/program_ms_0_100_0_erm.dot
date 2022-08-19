@@ -1,0 +1,24 @@
+digraph {
+node [label=opclass_2,style=""] opclass_2
+node [label=opclass_2,style=""] opclass_2
+node [label=opclass_0,style=""] opclass_0
+node [label=opclass_0,style=""] opclass_0
+node [label=opclass_2,style=""] opclass_2
+node [label=opclass_2,style=""] opclass_2
+node [label=opclass_2,style=""] opclass_2
+node [label=persons_3,shape="diamond",style=""] 2
+node [label=buying_4,shape="diamond",style=""] 1
+node [label=safety_3,shape="diamond",style=""] 0
+
+2 -> opclass_2 [label="3"]
+2 -> opclass_2 [label="2"]
+2 -> opclass_0 [label="1"]
+2 -> opclass_0 [label="0"]
+1 -> 2 [label="3"]
+1 -> 2 [label="2"]
+1 -> opclass_2 [label="1"]
+1 -> opclass_2 [label="0"]
+0 -> 1 [label="2"]
+0 -> 1 [label="1"]
+0 -> opclass_2 [label="0"]
+}

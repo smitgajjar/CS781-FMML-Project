@@ -1,0 +1,44 @@
+{'cols': ['buying', 'maint', 'doors', 'persons', 'lug_boot', 'safety'],
+ 'drop_invariant': False,
+ 'handle_missing': 'value',
+ 'handle_unknown': 'value',
+ 'mapping': [{'col': 'buying', 'mapping':
+   vhigh    1
+   high     2
+   low      3
+   med      4
+   NaN     -2
+   dtype: int64, 'data_type': dtype('O')},
+  {'col': 'maint', 'mapping': vhigh    1
+   high     2
+   low      3
+   med      4
+   NaN     -2
+   dtype: int64, 'data_type': dtype('O')},
+  {'col': 'doors', 'mapping': 3        1
+   5more    2
+   2        3
+   4        4
+   NaN     -2
+   dtype: int64, 'data_type': dtype('O')},
+  {'col': 'persons', 'mapping': more    1
+   4       2
+   2       3
+   NaN    -2
+   dtype: int64, 'data_type': dtype('O')},
+  {'col': 'lug_boot', 'mapping': med      1
+   small    2
+   big      3
+   NaN     -2
+   dtype: int64, 'data_type': dtype('O')},
+  {'col': 'safety', 'mapping': 
+   low     1
+   high    2
+   med     3
+   NaN    -2
+   dtype: int64, 'data_type': dtype('O')}],
+ 'return_df': True,
+ 'verbose': 0}
+
+ acc : 0
+ unacc : 2

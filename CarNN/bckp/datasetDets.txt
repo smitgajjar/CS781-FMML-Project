@@ -1,0 +1,45 @@
+Column: buying
+high     432
+med      432
+low      432
+vhigh    431
+Name: buying, dtype: int64 
+
+Column: maint
+high     432
+med      432
+low      432
+vhigh    431
+Name: maint, dtype: int64 
+
+Column: doors
+3        432
+4        432
+5more    432
+2        431
+Name: doors, dtype: int64 
+
+Column: persons
+4       576
+more    576
+2       575
+Name: persons, dtype: int64 
+
+Column: lug_boot
+med      576
+big      576
+small    575
+Name: lug_boot, dtype: int64 
+
+Column: safety
+med     576
+high    576
+low     575
+Name: safety, dtype: int64 
+
+Column: classes
+unacc    1209
+acc       384
+good       69
+vgood      65
+Name: classes, dtype: int64 
